@@ -23,7 +23,7 @@ HTTP POST: To send JSON data and images to a web service, the multipart POST HTT
 
 Data Structure: Refer to the FF protocol documentation or the API FF Integration HTTP POST JSON for the data structure details. This documentation provides the necessary guidelines for formatting the data to be sent.
 
-Configure Server URL: Specify the link or URL where you want to send the data. This could be the endpoint of the receiving application or system. You can explicitly define URL starting with HTTP (ex. “http://ip:port/listener.php”) in case camera Network configuration allows both, HTTP and HTTPS, but your server is only configured to use HTTP.
+Configure Server URL: Specify the link or URL where you want to send the data. This could be the endpoint of the receiving application or system. You can explicitly define URL starting with HTTP (ex. “http://ip-port/listener.php”) in case camera Network configuration allows both, HTTP and HTTPS, but your server is only configured to use HTTP.
 
 Set Device ID: Assign a unique identifier to the packets sent from the camera. This helps in distinguishing and tracking the data packets.
 
