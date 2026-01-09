@@ -17,7 +17,7 @@ const config = {
   organizationName: 'ffgroup-usa',
   projectName: 'manuals',
 
-  trailingSlash: false,
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
   markdown: {
