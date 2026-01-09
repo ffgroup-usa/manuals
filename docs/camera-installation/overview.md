@@ -1,5 +1,5 @@
 ---
-id: camera-installation/overview
+id: camera-installation-overview
 title: Camera Installation
 sidebar_position: 1
 ---

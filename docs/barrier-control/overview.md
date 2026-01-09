@@ -1,5 +1,5 @@
 ---
-id: barrier-control/overview
+id: barrier-control-overview
 title: Barrier Control
 sidebar_position: 1
 ---

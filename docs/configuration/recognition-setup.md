@@ -1,5 +1,5 @@
 ---
-id: configuration/recognition-setup
+id: configuration-recognition-setup
 title: Configuration
 sidebar_position: 1
 ---

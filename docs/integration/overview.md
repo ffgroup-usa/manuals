@@ -1,5 +1,5 @@
 ---
-id: integration/overview
+id: integration-overview
 title: Integration
 sidebar_position: 1
 ---

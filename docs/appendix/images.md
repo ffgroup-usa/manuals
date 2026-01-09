@@ -1,5 +1,5 @@
 ---
-id: appendix/images
+id: appendix-images
 title: Extracted Images
 sidebar_position: 99
 ---

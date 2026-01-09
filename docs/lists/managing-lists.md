@@ -1,5 +1,5 @@
 ---
-id: lists/managing-lists
+id: lists-managing-lists
 title: Managing Lists
 sidebar_position: 1
 ---

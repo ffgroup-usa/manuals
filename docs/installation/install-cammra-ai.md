@@ -1,5 +1,5 @@
 ---
-id: installation/install-cammra-ai
+id: installation-install-cammra-ai
 title: Installing CAMMRA AI
 sidebar_position: 1
 ---
