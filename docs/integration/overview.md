@@ -47,7 +47,7 @@ For to configure CAMMRA AI sending data to Genetec via 3rd party ALPR plugin:
 
 1. Go to Direct integration and choose Genetec from the drop-down menu.
 
-2. Fill url https://<hostname>/api/v1/lpr/LprIngestion/reads
+2. Fill url https://hostname/api/v1/lpr/LprIngestion/reads
 
 Then choose any Camera ID name and user’s credentials.
 
@@ -63,7 +63,7 @@ Configuration on Genetec side:
 
 First off all, check that entire system is online
 
-Go to https://<your_ip_address>/Genetec
+Go to https://your_ip_address/Genetec
 
 Make sure that Database, Directory and License is online
 
