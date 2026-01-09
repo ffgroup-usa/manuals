@@ -30,8 +30,11 @@ const config = {
   organizationName: 'ffgroup-usa',
   projectName: 'manuals',
   trailingSlash: false,
-  onBrokenMarkdownLinks: 'warn',
-
+  markdown: {
+  hooks: {
+    onBrokenMarkdownLinks: 'warn',
+  },
+  },
   onBrokenLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
