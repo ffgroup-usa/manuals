@@ -7,51 +7,54 @@ const sidebars = {
       type: 'category',
       label: 'Camera Installation',
       items: [
-        'camera-installation/overview',
+        'camera-installation/camera-installation-overview',
+        'camera-installation/camera-mounting',
+        'camera-installation/power-storage',
       ],
     },
     {
       type: 'category',
       label: 'Installation',
       items: [
-        'installation/install-cammra-ai',
+        'installation/installation-install-cammra-ai',
       ],
     },
     {
       type: 'category',
       label: 'Configuration',
       items: [
-        'configuration/recognition-setup',
+        'configuration/configuration-recognition-setup',
       ],
     },
     {
       type: 'category',
       label: 'Integration',
       items: [
-        'integration/overview',
+        'integration/integration-overview',
       ],
     },
     {
       type: 'category',
       label: 'Lists',
       items: [
-        'lists/managing-lists',
+        'lists/lists-managing-lists',
       ],
     },
     {
       type: 'category',
       label: 'Barrier Control',
       items: [
-        'barrier-control/overview',
+        'barrier-control/barrier-control-overview',
       ],
     },
     {
       type: 'category',
       label: 'Appendix',
       items: [
-        'appendix/images',
+        'appendix/appendix-images',
       ],
     },
   ],
 };
+
 module.exports = sidebars;
