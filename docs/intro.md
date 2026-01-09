@@ -3,42 +3,11 @@ id: intro
 title: CAMMRA AI Overview
 sidebar_position: 1
 ---
-
-## Product Description
-
-**CAMMRA AI** is an AI-based data fusion application for advanced vehicle recognition and traffic analytics.
-
-CAMMRA AI is developed for **AXIS cameras equipped with the ARTPEC-8 processor**, leveraging the **Axis Camera Application Platform (ACAP)** and **Deep Learning Processing Unit (DLPU)**. This enables multiple neural networks to run in parallel directly on the camera.
-
-With CAMMRA AI, users can consolidate all essential traffic data in a single application. By installing cameras on roads leading to and from a city, operators gain full visibility and control over traffic flows. The application is suitable for both fixed and mobile deployments.
-
-CAMMRA AI transforms supported AXIS cameras into intelligent traffic sensors capable of recognizing:
-
-- License plates (front and rear)
-- Vehicle make and model
-- Vehicle color
-- Vehicle type
-- Direction of movement
-
-All analytics are performed **at the edge**, making CAMMRA AI a fully **server-less solution**.
-
----
-
-## Key Capabilities
-
-- Multi-lane and high-speed traffic handling
-- Edge-based license plate recognition
-- Front and rear vehicle recognition
-- Open API for third-party integrations
-- Native compatibility with FF DataFactory
-- Optional enrichment with radar speed and sound localization data
-
----
-
-## Typical Use Cases
-
-- City and highway traffic monitoring
-- Law enforcement and stolen vehicle detection
-- Traffic statistics and analysis
-- Barrier and access control automation
-- Integration with national and regional databases
+CAMMRA AI is an AI-based data fusion application for vehicle data recognition.
+CAMMRA is an advanced application developed for Axis cameras with Artpec 8 processor only, leveraging the capabilities of the ACAP (Axis Camera Application Platform) and DLPU (Deep learning processing unit), which allows it to run several neural networks in parallel on board of these cameras.
+With CAMMRA AI, users can conveniently consolidate all essential traffic data within a single application. By strategically installing the cameras on roads leading to and from the city, user gets complete control over traffic flows. The app is also ready for mobile installation in vehicles. CAMMRA AI is a perfect sensor for tracking stolen cars, providing data for law enforcement purposes and generating statistical analyses.
+By integrating CAMMRA AI with Axis cameras, they are transformed into powerful traffic sensors capable of gathering vehicle information such as make, model, color, type, and license plate - both from front and rear view. This comprehensive data collection makes CAMMRA AI the ultimate solution for monitoring city and highway traffic.
+Moreover, compared to other ACAP solutions and previous generations of the app (CAMMRA), speed measurement from radar (Axis) and sound localization and measurement (Sorama) are possible to me added on top of above mentioned parameters. With CAMMRA AI running on DLE video-fusion cameras, the vehicle data are enriched by vehicle speed (in km/h or mph) and if installed together with Sorama L642V units, vehicle loudness (in dbA) is attached to every vehicle event.
+CAMMRA AI is specifically designed to handle higher speeds and multiple lanes, making it suitable for a wide range of traffic scenarios. The application offers seamless integration through an open API, allowing users to connect and integrate with other systems effortlessly.  Primary option for integration is FF DataFactory - data fusion platform from FF Group, which is an unique place to centralize meta-data from even hundreds of cameras equipped with CAMMRA AI, CAMMRA or Axis License Plate Verifier apps. Moreover it provides valuable traffic insights and receives other data to correlate with vehicle information.
+Additionally, CAMMRA AI's meta-data has already been integrated with regional law enforcement databases like Safercities (New Zealand) SNIPR/Platform 1 (South Africa), Fusus, Auror and thanks to Macq M3 and Jenoptik integrations meta-data from CAMMRA AI can be sent to national databases in Belgium, UK and Australia. This ensures compatibility and interoperability with existing infrastructure.
+The solution is a fully server-less, all the analytics are done on edge using camera processing power.
